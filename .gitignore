@@ -1,0 +1,7 @@
+# Source photo, crops and review page must never be committed (public repo)
+data/source/
+data/review.html
+
+node_modules/
+dist/
+.DS_Store

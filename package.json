@@ -1,0 +1,21 @@
+{
+  "name": "codenames-key-card-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun tsc --noEmit && bunx --bun vite build",
+    "preview": "bunx --bun vite preview",
+    "test": "bun test",
+    "validate": "bun scripts/validate-cards.ts",
+    "simulate": "bun scripts/simulate.ts",
+    "review": "bun scripts/review.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
