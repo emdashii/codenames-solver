@@ -1,0 +1,10 @@
+{
+  "name": "Key Card Finder",
+  "short_name": "Key Cards",
+  "description": "An unofficial helper for the Codenames board game: find the spymaster's key card from revealed tiles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#262b31",
+  "theme_color": "#262b31",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
