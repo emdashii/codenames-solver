@@ -4,7 +4,7 @@ An unofficial helper for the Codenames board game, built for <https://codenames.
 
 The base game ships with 40 key cards, and each card can sit in its stand in four rotations, so the spymaster holds one of 160 layouts. As tiles are revealed, the guessing team taps them in. The app keeps only the layouts that still fit and shows, for each unrevealed tile, the chance that it belongs to your team. Once a single layout remains, it shows the whole key.
 
-The idea comes from Dan Luu's [Codenames essay](https://danluu.com/codenames/) and CodeSlate's [video](https://www.youtube.com/watch?v=UYCgGDSUnB0).
+The idea comes from Dan Luu's [Codenames essay](https://danluu.com/codenames/) and CodeSlate's [video](https://www.youtube.com/watch?v=UYCgGDSUnB0). I wrote about building it in [Codenames Key Card Finder](https://mazzaella.com/posts/codenames-key-card-finder/).
 
 ## Use it
 
