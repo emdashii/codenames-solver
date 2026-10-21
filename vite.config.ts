@@ -9,7 +9,7 @@ function offline(): Plugin {
     name: "offline-service-worker",
     apply: "build",
     generateBundle(_options, bundle) {
-      const files = ["/", ...Object.keys(bundle).map((f) => `/${f}`), "/icon.svg", "/manifest.webmanifest"];
+      const files = ["/", ...Object.keys(bundle).map((f) => `/${f}`), "/icon.svg", "/apple-touch-icon.png", "/manifest.webmanifest"];
       const body = `const FILES = ${JSON.stringify(files)};
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
